@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +18,18 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom classes */
+/* globals.css */
+.hero-background {
+  clip-path: polygon(
+    0% 0%,       /* Top-left corner */
+    100% 0%,     /* Top-right corner */
+    100% 95%,    /* Right edge */
+    75% 98%,     /* Bottom right, slight curve inward */
+    50% 100%,    /* Bottom center point */
+    25% 98%,     /* Bottom left, slight curve inward */
+    0% 95%       /* Left edge */
+  );
 }
