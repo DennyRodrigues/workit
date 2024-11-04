@@ -11,6 +11,18 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkPurple: {
+          DEFAULT: "#24053E",
+        },
+        eucaplyptus: {
+          DEFAULT: "#44FFA1",
+        },
+        davyGrey: {
+          DEFAULT: "#584D62",
+        },
+        ghostWhite: {
+          DEFAULT: "#FCF8FF",
+        },
       },
     },
   },
