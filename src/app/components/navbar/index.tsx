@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function index() {
   return (
-    <div className="flex justify-between items-center pl-4 pr-4 lg:pl-24 lg:pr-24 pt-6 pb-6
+    <div className="flex justify-between items-center pl-4 pr-4 lg:pl-24 lg:pr-24 pt-6
     bg-darkPurple">
       <Image
         aria-hidden

@@ -18,18 +18,22 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  line-height: 28px;
 }
 
 /* Custom classes */
 /* globals.css */
 .hero-background {
   clip-path: polygon(
-    0% 0%,       /* Top-left corner */
-    100% 0%,     /* Top-right corner */
-    100% 95%,    /* Right edge */
-    75% 98%,     /* Bottom right, slight curve inward */
-    50% 100%,    /* Bottom center point */
-    25% 98%,     /* Bottom left, slight curve inward */
-    0% 95%       /* Left edge */
+    0% 0%,
+    /* Top-left corner */ 100% 0%,
+    /* Top-right corner */ 100% 95%,
+    /* Right edge */ 75% 98%,
+    /* Bottom right, slight curve inward */ 50% 100%,
+    /* Bottom center point */ 25% 98%,
+    /* Bottom left, slight curve inward */ 0% 95% /* Left edge */
   );
+}
+.hero-shadow {
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
