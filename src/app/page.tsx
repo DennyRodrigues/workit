@@ -1,3 +1,4 @@
+import Contact from "./components/contact";
 import Cta from "./components/cta";
 import Feature from "./components/feature";
 import Hero from "./components/hero";
@@ -9,8 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Feature />
-      <Cta/>
-      <div className="h-screen min-w-full"></div>
+      <Cta />
+      <Contact/>
     </div>
   );
 }
