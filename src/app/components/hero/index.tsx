@@ -1,8 +1,9 @@
 import Image from "next/image";
+import ButtonLink from "../ButtonLink";
 
 export default function Index() {
   return (
-    <div className="relative overflow-visible mb-36 lg:mb-52">
+    <div className="relative overflow-visible mb-36  lg:mb-60">
       <div className="hero-shadow">
         <div className="relative min-h-[420px]  md:min-h-[460px] lg:min-h-[640px] bg-darkPurple hero-background pt-16">
           <div className="flex items-center justify-center flex-col  pb-16 ">
@@ -10,9 +11,7 @@ export default function Index() {
               Data <span className="border-eucaplyptus border-b-2">tailored</span> to <br />
               your needs.
             </h2>
-            <button className="bg-eucaplyptus text-black font-bold py-4 px-6 lg:text-xl" type="button">
-              Learn More
-            </button>
+            <ButtonLink text={"Learn More"} link="#" />
           </div>
         </div>
       </div>

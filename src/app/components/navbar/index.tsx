@@ -11,6 +11,7 @@ export default function index() {
         alt="Logo icon"
         width={90}
         height={32}
+        
       />
       <Link href="/#" className="border-b-2 border-eucaplyptus">   Apply for Access</Link>
 
