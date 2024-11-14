@@ -4,7 +4,7 @@ import LogoIcon from '/public/logo.svg';
 export default function index() {
   return (
     <div className="flex justify-between items-center pl-4 pr-4 lg:pl-24 lg:pr-24 pt-6
-    bg-darkPurple">
+    bg-darkPurple pb-1">
       <LogoIcon
         aria-hidden
         src="/logo.svg"

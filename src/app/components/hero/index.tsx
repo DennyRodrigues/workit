@@ -3,7 +3,7 @@ import ButtonLink from "../ButtonLink";
 
 export default function Index() {
   return (
-    <div className="relative overflow-visible mb-36  lg:mb-60">
+    <div className="relative overflow-visible mb-36  lg:mb-60 -mt-1">
       <div className="hero-shadow">
         <div className="relative min-h-[420px]  md:min-h-[460px] lg:min-h-[640px] bg-darkPurple hero-background pt-16">
           <div className="flex items-center justify-center flex-col  pb-16 ">
